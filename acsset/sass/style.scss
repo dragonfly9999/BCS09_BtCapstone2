@@ -157,49 +157,54 @@ header {
             .row {
                 justify-content: space-between;
                 .col-4 {
-                    // box-shadow: ;
-                    // margin: 0 10px;
                     padding: 0;
                     max-width: 300px;
-                    // max-height: 300px;
-                    .item_top {
-                        background-color: rgb(188, 182, 182);
-                        .img_product {
-                            padding: 30px;
-                            img {
-                                width: 100%;
+                    a {
+                        text-decoration: none;
+                        .item_top {
+                            background-color: rgb(188, 182, 182);
+                            .img_product {
+                                padding: 30px;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            .product_name {
+                                padding-left: 15px;
+                                color: black;
+                            }
+                            .product_description {
+                                padding-left: 15px;
+                                margin: 0;
+                                color: gray;
                             }
                         }
-                        .product_name {
-                            padding-left: 15px;
-                        }
-                        .product_description {
-                            padding-left: 15px;
-                            margin: 0;
-                        }
-                    }
-                    .item_bottom {
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        justify-content: space-between;
-                        // height: 60px;
-                        // font-size: 50px;
-                        button {
-                            padding: 5px 20px;
-                            background-color: #F8B653;
-                            font-size: 24px;
-                            font-weight: 200;
-                            border: none;
-                        }
-                        p {
-                            font-size: 20px;
-                            padding: 10px 55px;
-                            background-color: gray;
-                            margin: 0;
-                            text-align: center;
+                        .item_bottom {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            justify-content: space-between;
+                            // height: 60px;
+                            // font-size: 50px;
+                            button {
+                                padding: 5px 20px;
+                                background-color: #F8B653;
+                                font-size: 24px;
+                                font-weight: 200;
+                                border: none;
+                            }
+                            p {
+                                font-size: 20px;
+                                padding: 10px 55px;
+                                background-color: gray;
+                                margin: 0;
+                                text-align: center;
+                                color: black;
+                                font-weight: 500;
+                            }
                         }
                     }
                 }
+                
             }
         }
     }
